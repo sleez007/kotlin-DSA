@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35bd6e34-d560-434b-a118-89472f2b39d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linked_list_ds/LinkedListDs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/stack_ds/StackDs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/array_ds/RingBuffer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linked_list_ds/DoublyLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/ArrayListQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/LinkedListQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/Queue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/RingBufferQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/StackQueue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/array_ds/ArrayDs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/array_ds/ArrayDs.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +48,28 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.StackDsKt">
-    <configuration name="ArrayDsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_ds.ArrayDsKt" />
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="array_ds" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.StackQueueKt">
+    <configuration name="ArrayListQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues_ds.ArrayListQueueKt" />
       <module name="data_structures" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linked_list_ds.LinkedListDsKt" />
+    <configuration name="LinkedListQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues_ds.LinkedListQueueKt" />
+      <module name="data_structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RingBufferQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues_ds.RingBufferQueueKt" />
       <module name="data_structures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,11 +82,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queues_ds.StackQueueKt" />
+      <module name="data_structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StackQueueKt" />
+        <item itemvalue="Kotlin.RingBufferQueueKt" />
+        <item itemvalue="Kotlin.LinkedListQueueKt" />
+        <item itemvalue="Kotlin.ArrayListQueueKt" />
         <item itemvalue="Kotlin.StackDsKt" />
-        <item itemvalue="Kotlin.LinkedListDsKt" />
-        <item itemvalue="Kotlin.ArrayDsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -95,5 +120,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/linked_list_ds/DoublyLinkedList.kt</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
