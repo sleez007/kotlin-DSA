@@ -24,6 +24,9 @@ package array_ds
 
 // Looking up items by their index in an array has a constant time complexity irrespective of the index or size of the array
 
+// Looking up items by value has a time complexity of O(n)
+
+// Insertion into arrays in java is an O(n) operation
 //deleting an item from an array has a complexity of O(n) because we need to shift elements to fill the vacuum
 
 // It is important to know that the kotlin ArrayList is well optimized and has all the cool stuff implemented here built in
@@ -86,6 +89,39 @@ class ArrayDs<T>  constructor(private val arraySize: Int){
         return -1;
     }
 
+    fun max(): T{
+        if(count == 0) throw java.lang.IllegalArgumentException()
+        var current = items[0]
+        for( i in 0 until count){
+            if( (current as Int) < (items[i] as Int)){
+                current = items[i];
+            }
+        }
+        return  current;
+    }
+
+
+    fun reverse(){
+        var start = count-1
+
+        //create a new array
+        val newItems : ArrayList<T> = ArrayList(count)
+        while (start >= 0){
+
+            newItems.add(items[start])
+            start--
+        }
+
+        println(newItems.toString())
+    }
+
+//    fun insertAt(item: T,  index: Int){
+//        var currentArray : ArrayList<T> = ArrayList<T>(count).apply { addAll(items) }
+//
+//        for(i in index until )
+//
+//    }
+
 }
 
 
@@ -97,6 +133,8 @@ fun main() {
     inst.insert(9)
     inst.insert(2)
     inst.removeAt(0)
+    inst.reverse()
+    println("Maximum number is ${inst.max()}")
     println("Index of 9 is ${inst.indexOf(9)}" )
     inst.print()
 }
