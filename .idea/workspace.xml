@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35bd6e34-d560-434b-a118-89472f2b39d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/array_ds/RingBuffer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/linked_list_ds/DoublyLinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/ArrayListQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/LinkedListQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/Queue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/RingBufferQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/queues_ds/StackQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/trees/TreeNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +47,7 @@
       <recent name="array_ds" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.StackQueueKt">
+  <component name="RunManager" selected="Kotlin.TreeNodeKt">
     <configuration name="ArrayListQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queues_ds.ArrayListQueueKt" />
       <module name="data_structures" />
@@ -75,13 +69,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_ds.StackDsKt" />
-      <module name="data_structures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StackQueueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queues_ds.StackQueueKt" />
       <module name="data_structures" />
@@ -89,13 +76,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeNodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.TreeNodeKt" />
+      <module name="data_structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TreeNodeKt" />
         <item itemvalue="Kotlin.StackQueueKt" />
         <item itemvalue="Kotlin.RingBufferQueueKt" />
         <item itemvalue="Kotlin.LinkedListQueueKt" />
         <item itemvalue="Kotlin.ArrayListQueueKt" />
-        <item itemvalue="Kotlin.StackDsKt" />
       </list>
     </recent_temporary>
   </component>
